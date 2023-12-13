@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  spring-app:
+    image: cameleoo_task:100
+    ports:
+      - "8080:8080"
+    networks:
+      backend:
+        aliases:
+         - cameleoo_task
+networks:
+  backend:
+    driver: bridge
