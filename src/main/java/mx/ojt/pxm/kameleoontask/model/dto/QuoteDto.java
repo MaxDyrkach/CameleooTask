@@ -1,9 +1,9 @@
-package mx.ojt.pxm.cameleootask.model.dto;
+package mx.ojt.pxm.kameleoontask.model.dto;
 
 import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import mx.ojt.pxm.cameleootask.model.Vote;
+import mx.ojt.pxm.kameleoontask.model.Vote;
 
 import java.time.Instant;
 import java.util.Set;

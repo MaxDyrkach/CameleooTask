@@ -1,9 +1,8 @@
-package mx.ojt.pxm.cameleootask.model;
+package mx.ojt.pxm.kameleoontask.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.persistence.*;
-import jdk.jfr.DataAmount;
 import lombok.*;
 
 import java.time.Instant;

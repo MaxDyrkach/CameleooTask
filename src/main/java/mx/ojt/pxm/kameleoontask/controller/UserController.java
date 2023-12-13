@@ -1,11 +1,10 @@
-package mx.ojt.pxm.cameleootask.controller;
+package mx.ojt.pxm.kameleoontask.controller;
 
 import jakarta.validation.Valid;
-import mx.ojt.pxm.cameleootask.model.dto.UserDto;
-import mx.ojt.pxm.cameleootask.service.UserService;
+import mx.ojt.pxm.kameleoontask.model.dto.UserDto;
+import mx.ojt.pxm.kameleoontask.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

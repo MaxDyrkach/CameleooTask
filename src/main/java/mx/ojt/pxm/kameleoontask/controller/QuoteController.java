@@ -1,12 +1,11 @@
-package mx.ojt.pxm.cameleootask.controller;
+package mx.ojt.pxm.kameleoontask.controller;
 
 import jakarta.validation.Valid;
-import mx.ojt.pxm.cameleootask.model.dto.QuoteDto;
-import mx.ojt.pxm.cameleootask.model.dto.QuoteProgressDto;
-import mx.ojt.pxm.cameleootask.model.dto.VotingDto;
-import mx.ojt.pxm.cameleootask.repo.QuoteRepo;
-import mx.ojt.pxm.cameleootask.service.QuoteService;
-import mx.ojt.pxm.cameleootask.service.VoteService;
+import mx.ojt.pxm.kameleoontask.model.dto.QuoteDto;
+import mx.ojt.pxm.kameleoontask.model.dto.QuoteProgressDto;
+import mx.ojt.pxm.kameleoontask.model.dto.VotingDto;
+import mx.ojt.pxm.kameleoontask.service.QuoteService;
+import mx.ojt.pxm.kameleoontask.service.VoteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

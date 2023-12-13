@@ -1,14 +1,14 @@
-package mx.ojt.pxm.cameleootask.service;
+package mx.ojt.pxm.kameleoontask.service;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import mx.ojt.pxm.cameleootask.model.Quote;
-import mx.ojt.pxm.cameleootask.model.User;
-import mx.ojt.pxm.cameleootask.model.Vote;
-import mx.ojt.pxm.cameleootask.model.dto.QuoteDto;
-import mx.ojt.pxm.cameleootask.repo.QuoteRepo;
-import mx.ojt.pxm.cameleootask.repo.UserRepo;
-import mx.ojt.pxm.cameleootask.repo.VoteRepo;
+import mx.ojt.pxm.kameleoontask.model.Quote;
+import mx.ojt.pxm.kameleoontask.model.User;
+import mx.ojt.pxm.kameleoontask.model.Vote;
+import mx.ojt.pxm.kameleoontask.model.dto.QuoteDto;
+import mx.ojt.pxm.kameleoontask.repo.QuoteRepo;
+import mx.ojt.pxm.kameleoontask.repo.UserRepo;
+import mx.ojt.pxm.kameleoontask.repo.VoteRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

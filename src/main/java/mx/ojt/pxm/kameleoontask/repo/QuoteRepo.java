@@ -1,6 +1,6 @@
-package mx.ojt.pxm.cameleootask.repo;
+package mx.ojt.pxm.kameleoontask.repo;
 
-import mx.ojt.pxm.cameleootask.model.Quote;
+import mx.ojt.pxm.kameleoontask.model.Quote;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

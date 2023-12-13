@@ -1,7 +1,7 @@
-package mx.ojt.pxm.cameleootask.repo;
+package mx.ojt.pxm.kameleoontask.repo;
 
-import mx.ojt.pxm.cameleootask.model.Quote;
-import mx.ojt.pxm.cameleootask.model.Vote;
+import mx.ojt.pxm.kameleoontask.model.Quote;
+import mx.ojt.pxm.kameleoontask.model.Vote;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.Instant;

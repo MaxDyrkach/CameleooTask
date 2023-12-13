@@ -1,10 +1,9 @@
-package mx.ojt.pxm.cameleootask.model.dto;
+package mx.ojt.pxm.kameleoontask.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Builder;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 
 import java.time.ZonedDateTime;
 

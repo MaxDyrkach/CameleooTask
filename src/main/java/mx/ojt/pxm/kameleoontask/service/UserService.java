@@ -1,9 +1,9 @@
-package mx.ojt.pxm.cameleootask.service;
+package mx.ojt.pxm.kameleoontask.service;
 
 
-import mx.ojt.pxm.cameleootask.model.User;
-import mx.ojt.pxm.cameleootask.model.dto.UserDto;
-import mx.ojt.pxm.cameleootask.repo.UserRepo;
+import mx.ojt.pxm.kameleoontask.model.User;
+import mx.ojt.pxm.kameleoontask.model.dto.UserDto;
+import mx.ojt.pxm.kameleoontask.repo.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

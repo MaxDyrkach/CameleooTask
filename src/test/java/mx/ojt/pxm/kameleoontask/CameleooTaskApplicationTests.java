@@ -1,4 +1,4 @@
-package mx.ojt.pxm.cameleootask;
+package mx.ojt.pxm.kameleoontask;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

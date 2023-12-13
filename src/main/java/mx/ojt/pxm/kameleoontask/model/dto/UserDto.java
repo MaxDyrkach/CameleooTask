@@ -1,11 +1,10 @@
-package mx.ojt.pxm.cameleootask.model.dto;
+package mx.ojt.pxm.kameleoontask.model.dto;
 
-import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import mx.ojt.pxm.cameleootask.model.Quote;
+import mx.ojt.pxm.kameleoontask.model.Quote;
 
 import java.time.Instant;
 import java.util.Set;

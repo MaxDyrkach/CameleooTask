@@ -33,4 +33,3 @@ COPY --from=build $BUILD_PATH/snapshot-dependencies/ ./
 COPY --from=build $BUILD_PATH/application/ ./
 
 ENTRYPOINT ["java", "org.springframework.boot.loader.launch.JarLauncher"]
-#ENTRYPOINT ["java", "mx.ojt.pxm.cameleootask.CameleooTaskApplication"]

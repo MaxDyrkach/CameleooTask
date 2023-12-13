@@ -1,11 +1,9 @@
-package mx.ojt.pxm.cameleootask.model;
+package mx.ojt.pxm.kameleoontask.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Indexed;
 
 import java.time.Instant;
 
